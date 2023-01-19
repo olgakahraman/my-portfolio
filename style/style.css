@@ -28,15 +28,20 @@ h1{
   
 
 }
-h3{
-    font-size: 28px;
- 
-}
 h2{
     font-family: 28px;
     position:relative;
     right:30px;
 }
+h3{
+    font-size: 28px;
+ 
+}
+h4{
+    font-size: 32px;
+    
+}
+
 p{
     font-size: 23px;
     
@@ -58,8 +63,8 @@ p{
 footer {
   margin-top: 60px;
 }
-
 footer .social-links a{
+
     margin: 0 20px;
   color: var(--red-color);
   background-color: var(--secondary-color);
@@ -68,11 +73,18 @@ footer .social-links a{
   font-size: 18px;
   transition: all 100ms ease-in-out;
   box-shadow: var(--box-shadow);
+
 }
 footer .social-links a:hover {
   color: white;
   background-color: var(--red-color);
   transform:var(--scale);
+}
+a{
+    text-decoration: none;
+    color:var(--red-color);
+    font-size: 22px;
+
 }
 
 .contact-box{
@@ -95,13 +107,4 @@ footer .social-links a:hover {
     background: var(--red-color);
 
 }
-i{
-        margin: 0 20px;
-  color: var(--red-color);
-  background-color: var(--secondary-color);
-  padding: 10px 16px;
-  border-radius: 50%;
-  font-size: 40px;
-  transition: all 100ms ease-in-out;
-  box-shadow: var(--box-shadow);
-}
+
