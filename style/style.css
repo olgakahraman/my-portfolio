@@ -128,7 +128,7 @@ a:hover{
    
     
 }
-@media{
+@media(max-width:600px){
     body{
         text-align:center ;
         margin:80px 20px;
@@ -159,4 +159,5 @@ video{
 .skills img{
     width:30px;
 }
+
 }
