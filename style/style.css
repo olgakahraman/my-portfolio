@@ -128,3 +128,35 @@ a:hover{
    
     
 }
+@media{
+    body{
+        text-align:center ;
+        margin:80px 20px;
+    }
+    h1{
+        font-size: 40px;
+    }
+h2{
+    font-size: 22px;
+    
+}
+h3{
+    font-size: 20px;
+}
+p{
+    font-size: 18px;
+}
+.red{
+    font-size: 22px;
+}
+video{
+    width:300px;
+}
+.row{
+  margin-top: 20px;
+    margin-bottom: 20px;
+}
+.skills img{
+    width:30px;
+}
+}
