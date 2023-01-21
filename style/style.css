@@ -21,6 +21,10 @@ body{
     font-size: 18px;
     
 }
+.collapse a:hover{
+    color:var(--red-color);
+}
+
 
 h1{
     font-size: 96px;
@@ -85,9 +89,21 @@ a{
     font-size: 22px;
 
 }
-a:hover{
-    text-decoration: underline;
+
+  .email-link:hover{
+    color:white;
+  }
+.open-sourced:hover{
     
+    text-decoration: underline;
+}
+.project-links {
+    background: var(--secondary-color);
+    border-radius: 5px;
+    margin-top:20px
+}
+.project-links a:hover{
+    color:white;
 }
 .contact-box{
     background: var(--secondary-color);
@@ -127,9 +143,8 @@ a:hover{
    
     
 }
-video{
-   margin:40px 40px;
-}
+
+
 @media(max-width:800px){
     body{
         text-align:center ;
@@ -147,12 +162,14 @@ h3{
 }
 p{
     font-size: 18px;
+    
 }
 .red{
     font-size: 22px;
 }
 video{
     width:300px;
+    
 }
 .row{
   margin-top: 20px;
@@ -161,5 +178,7 @@ video{
 .skills img{
     width:30px;
 }
-
+.project-links {
+    margin-bottom: 30px;
+}
 }
