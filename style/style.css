@@ -30,8 +30,7 @@ h1{
 }
 h2{
     font-family: 28px;
-    position:relative;
-    right:30px;
+    
 }
 h3{
     font-size: 28px;
@@ -128,7 +127,10 @@ a:hover{
    
     
 }
-@media(max-width:600px){
+video{
+   margin:40px 40px;
+}
+@media(max-width:800px){
     body{
         text-align:center ;
         margin:80px 20px;
