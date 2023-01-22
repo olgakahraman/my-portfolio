@@ -44,6 +44,7 @@ font-family: var(--primary-font);
 
 p{
     font-size: 23px;
+    margin-bottom: 0;
     
 }
 
@@ -77,11 +78,11 @@ footer .social-links a{
 }
 .skills img{
    
-transition: all 150ms ease-in-out;
+transition: all 200ms ease-in-out;
  border-radius: 50px; 
 }
 .skills img:hover{
-    transform:scale(2);
+    transform:scale(1.5);
 }
 footer .social-links a:hover {
   color: white;
@@ -94,6 +95,13 @@ a{
     font-size: 22px;
 
 }
+.app img{
+    transition: all 200ms ease-in-out;
+}
+.app img:hover{
+transform:var(--scale);
+}
+
 
   .email-link:hover{
     color:white;
@@ -102,10 +110,11 @@ a{
     
     text-decoration: underline;
 }
+
 .project-links {
     background: var(--secondary-color);
     border-radius: 5px;
-    margin-top:20px;
+    margin-top:12px;
     box-shadow: var(--box-shadow);
 }
 .project-links a:hover{
