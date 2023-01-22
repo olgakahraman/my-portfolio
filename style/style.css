@@ -75,6 +75,14 @@ footer .social-links a{
   box-shadow: var(--box-shadow);
 
 }
+.skills img{
+   
+transition: all 150ms ease-in-out;
+ border-radius: 50px; 
+}
+.skills img:hover{
+    transform:scale(2);
+}
 footer .social-links a:hover {
   color: white;
   background-color: var(--red-color);
@@ -97,10 +105,12 @@ a{
 .project-links {
     background: var(--secondary-color);
     border-radius: 5px;
-    margin-top:20px
+    margin-top:20px;
+    box-shadow: var(--box-shadow);
 }
 .project-links a:hover{
     color:white;
+    transform:var(--scale);
 }
 .contact-box{
     background: var(--secondary-color);
@@ -123,24 +133,30 @@ a{
 
 }
 .certification-left:hover{
-     transform:scale(2.5);
+     transform:scale(3);
     transition:all 300ms ease-in-out;
     position:relative;
-    margin-left: 300px;
+    margin-left: 200px;
     border: none;
     
   
 
 }
 .certification-right:hover{
-      transform:scale(2.5);
+      transform:scale(3);
     transition:all 300ms ease-in-out;
    position:relative;
-    margin-left: -300px;
+    margin-left: -200px;
    
     
 }
-
+.certification-center:hover{
+    transform:scale(3);
+    transition: all 300ms ease-in-out;
+}
+img{
+    box-shadow: var(--box-shadow);
+}
 
 @media(max-width:1000px){
     body{
@@ -177,9 +193,7 @@ video{
   margin-top: 20px;
     margin-bottom: 20px;
 }
-.skills img{
-    width:30px;
-}
+
 .project-links {
     margin-bottom: 30px;
 }
