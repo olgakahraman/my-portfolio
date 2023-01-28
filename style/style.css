@@ -103,10 +103,9 @@ a {
   border-radius: 5px;
   margin-top: 12px;
   box-shadow: var(--box-shadow);
-  
 }
-.project-links a{
-  color:white;
+.project-links a {
+  color: white;
 }
 .project-links a:hover {
   color: var(--red-color);
@@ -173,7 +172,7 @@ img {
   .red {
     font-size: 21px;
   }
-  
+
   .weather {
     margin-top: 30px;
   }
