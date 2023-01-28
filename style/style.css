@@ -103,9 +103,13 @@ a {
   border-radius: 5px;
   margin-top: 12px;
   box-shadow: var(--box-shadow);
+  
+}
+.project-links a{
+  color:white;
 }
 .project-links a:hover {
-  color: white;
+  color: var(--red-color);
   transform: var(--scale);
 }
 .contact-box {
@@ -169,9 +173,7 @@ img {
   .red {
     font-size: 21px;
   }
-  video {
-    width: 300px;
-  }
+  
   .weather {
     margin-top: 30px;
   }
