@@ -67,17 +67,19 @@ footer .social-links a {
   transition: all 100ms ease-in-out;
   box-shadow: var(--box-shadow);
 }
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--red-color);
+  transform: var(--scale);
+}
+
 .skills img {
   transition: all 200ms ease-in-out;
   border-radius: 50px;
 }
 .skills img:hover {
   transform: scale(1.5);
-}
-footer .social-links a:hover {
-  color: white;
-  background-color: var(--red-color);
-  transform: var(--scale);
 }
 a {
   text-decoration: none;
