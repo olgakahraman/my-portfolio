@@ -1,7 +1,8 @@
 :root {
-  --red-color: #f9004d;
+  --grey-color: #61D9FB;
   --primary-font: "Bodoni Moda", serif;
-  --secondary-font: "Montserrat", sans-serif;
+  --secondary-font:'Poppins', sans-serif;
+
   --secondary-color: #2b3035;
   --background-color: #212529;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -12,16 +13,17 @@
   padding: 0 0;
 }
 body {
-  margin: 150px 40px 0;
+  margin: 100px 40px 0;
   background-color: var(--background-color);
   color: white;
   font-family: var(--secondary-font);
+  font-weight: 200;
 }
 .collapse a {
   font-size: 18px;
 }
 .collapse a:hover {
-  color: var(--red-color);
+  color: var(--grey-color);
 }
 
 h1 {
@@ -40,26 +42,31 @@ p {
   font-size: 23px;
   margin-bottom: 0;
 }
-
+.text{
+  margin:0 auto;
+  padding-top: 60px;
+}
 .row {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.red {
-  color: var(--red-color);
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+.grey {
+  color: var(--grey-color);
+  font-family: var(--primary-font);
   font-size: 30px;
 }
-.red-heading {
-  color: var(--red-color);
+.grey-heading {
+  color: var(--grey-color);
+  font-family: var(--primary-font);
+  
 }
 footer {
   margin-top: 60px;
 }
 footer .social-links a {
   margin: 0 20px;
-  color: var(--red-color);
+  color: var(--grey-color);
   background-color: var(--secondary-color);
   padding: 10px 16px;
   border-radius: 50%;
@@ -70,20 +77,20 @@ footer .social-links a {
 
 footer .social-links a:hover {
   color: white;
-  background-color: var(--red-color);
+  background-color: var(--grey-color);
   transform: var(--scale);
 }
 
-.skills img {
+.tech img {
   transition: all 200ms ease-in-out;
   border-radius: 50px;
 }
-.skills img:hover {
+.tech img:hover {
   transform: scale(1.5);
 }
 a {
   text-decoration: none;
-  color: var(--red-color);
+  color: var(--grey-color);
   font-size: 22px;
 }
 .app img {
@@ -102,7 +109,7 @@ a {
 
 .project-links {
   background: var(--secondary-color);
-  border-radius: 5px;
+  border-radius: 6px;
   margin-top: 12px;
   box-shadow: var(--box-shadow);
 }
@@ -110,19 +117,19 @@ a {
   color: white;
 }
 .project-links a:hover {
-  color: var(--red-color);
+  color: var(--grey-color);
   transform: var(--scale);
 }
 .contact-box {
   background: var(--secondary-color);
   padding: 30px 120px;
-  border-radius: 10px;
+  border-radius: 6px;
   box-shadow: var(--box-shadow);
 }
 .btn {
-  background: var(--red-color);
-  border-radius: 30px;
-  color: white;
+  background: var(--grey-color);
+  border-radius: 7px;
+  color: #333;
   display: block;
   box-shadow: var(--box-shadow);
   transition: all 150ms ease-in-out;
@@ -130,7 +137,7 @@ a {
 }
 .btn:hover {
   transform: var(--scale);
-  background: var(--red-color);
+  background: var(--grey-color);
 }
 .certification-left:hover {
   transform: scale(3);
@@ -188,5 +195,10 @@ img {
   }
   .skills img {
     width: 40px;
+  }
+  .text{
+    padding:0;
+    margin:20px 0;
+    text-align: center;
   }
 }

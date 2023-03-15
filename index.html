@@ -23,7 +23,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Montserrat:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Poppins:wght@200;400&display=swap"
       rel="stylesheet"
     />
     <script
@@ -39,7 +39,7 @@
       data-bs-theme="dark"
     >
       <div class="container-fluid">
-        <a class="navbar-brand red" href="/">Portfolio</a>
+        <a class="navbar-brand grey" href="/">Portfolio</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -73,47 +73,69 @@
     <div class="container">
       <h2 class="text-center">Hello, my name is</h2>
       <h1 class="text-center">
-        OLGA DIETIUK <span class="red-heading">KAHRAMAN</span>
+        OLGA DIETIUK <span class="grey-heading">KAHRAMAN</span>
       </h1>
       <hr />
       <h2 class="text-center mt-4">
-        I am a front-end developer, based in Istanbul, Turkey
+        I am a front-end developer, based in Jersey City, USA
       </h2>
-
+      <p>
+        I started my coding journey in October 2022. I strive to explore a new
+        career path where I can showcase my skills and passions. I enjoy taking
+        on new challenges and thinking outside the box to accomplish the
+        impossible.
+      </p>
       <div class="row">
-        <div class="col-lg-6 mt-4">
-          <video
-            src="https://player.vimeo.com/external/517724683.sd.mp4?s=15592e9bfcb70e9c9eba5ad4cdb857a5fdac011d&profile_id=164&oauth2_token_id=57447761"
-            class="object-fit-contain border rounded text-center"
-            width="100%"
-            autoplay
-            alt="coding"
-            title="coding"
-          ></video>
+        <div class="col-lg-6">
+          <h2 class="grey text-center mt-1">Weather React App</h2>
+          <img
+            src="/images/weatherreact.png"
+            class="img-fluid rounded"
+            alt="weather react "
+            title="Weather React App"
+          />
+
+          
+          <p class="">
+            A React.js weather application that utilizes the API to display the
+            real-time weather in a user's current location, with the option to
+            search for over 200,000 cities worldwide.
+          </p>
         </div>
 
-        <div class="about-me text col-lg-6">
-          <p class="pt-5 m-4">
-            I started my coding journey in October 2022. I strive to explore a
-            new career path where I can showcase my skills and passions. I enjoy
-            taking on new challenges and thinking outside the box to accomplish
-            the impossible.
+        <div class="col-lg-6">
+           <h2 class="grey text-center mt-1">Dictionary React App</h2>
+          <img
+            src="/images/dictionary.png"
+            class="img-fluid rounded"
+            alt="dictionary react "
+            title="Dictionary React App"
+          />
+
+         
+          <p class="">
+            A React.js dictionary application that utilizes the
+            dictionaryapi.dev and Pexels API to display the definitions,
+            phonetics, sentence examples, synonyms, and photographic examples of
+            a word.
           </p>
 
-          <a href="/projects.html" class="btn m-4">See my work</a>
+          <a href="/projects.html" class="btn mt-3">See more projects</a>
         </div>
       </div>
 
       <div>
-        <h2 class="text-center">SheCodes courses: Basic, Plus, Responsive.</h2>
+        <h2 class="text-center grey">
+          SheCodes courses: Basic, Plus, Responsive.
+        </h2>
         <p class="text-center">
-          Where I learned modern <span class="red">HTML</span>,
-          <span class="red">CSS</span>,
-          <span class="red">vanilla JavaScript</span>, work with different
-          <span class="red">API</span>, use <span class="red">Git</span> and
-          <span class="red">GitHub</span>, <span class="red">Moment.JS</span>,
-          <span class="red">Bootstrap</span>, and
-          <span class="red">Netlify</span>.
+          Where I learned modern <span class="grey">HTML</span>,
+          <span class="grey">CSS</span>,
+          <span class="grey">vanilla JavaScript</span>, work with different
+          <span class="grey">API</span>, use <span class="grey">Git</span> and
+          <span class="grey">GitHub</span>, <span class="grey">Moment.JS</span>,
+          <span class="grey">Bootstrap</span>, and
+          <span class="grey">Netlify</span>.
         </p>
       </div>
       <div class="row d-none d-lg-flex">
@@ -157,7 +179,7 @@
             title="SheCodes Responsive Web Development"
           />
         </div>
-          <div class="col">
+        <div class="col">
           <img
             src="/images/shecodes6.png"
             class="img-fluid rounded border certification certification-right"
@@ -166,8 +188,9 @@
           />
         </div>
       </div>
-      <div class="row skills text-center">
-        <h2 class="text-center mt-4 mb-4">The Tech Stack</h2>
+
+      <div class="row tech text-center">
+        <h2 class="text-center mt-4 mb-4 grey">The Tech Stack</h2>
         <div class="col">
           <img
             src="/images/html.png"
@@ -274,7 +297,7 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h4 class="grey">Work Inquiry</h4>
             <p class="">Let's work together!</p>
           </div>
           <div>
@@ -294,16 +317,18 @@
           target="_blank"
           title="Email Olga"
         >
-          <i class="fa-solid fa-envelope p-1"></i>ol.khrmn@gmail.com</a
+          <i class="fa-solid fa-envelope p-1"></i
+          ><strong>ol.khrmn@gmail.com</strong></a
         >
 
-<div class="social-links d-flex justify-content-center">
+        <div class="social-links d-flex justify-content-center">
           <a
             href="https://www.linkedin.com/in/olga-dietiuk-kahraman/"
             target="_blank"
             title="Linkedin Profile"
           >
-            <i class="fa-brands fa-linkedin"></i></a>
+            <i class="fa-brands fa-linkedin"></i
+          ></a>
           <a
             href="https://github.com/olgakahraman"
             target="_blank"
@@ -313,7 +338,6 @@
           ></a>
         </div>
 
-        
         <p class="text-center m-5">
           This project was coded by Olga Dietiuk Kahraman and it is
           <a
@@ -321,7 +345,8 @@
             href="https://github.com/olgakahraman/my-portfolio"
             target="_blank"
             title="GitHub"
-          />open-sourced
+            ><strong>open-sourced</strong></a
+          >
         </p>
       </footer>
     </div>
