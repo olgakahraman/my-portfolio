@@ -1,7 +1,7 @@
 :root {
   --grey-color: #61D9FB;
-  --primary-font: 'Poppins', sans-serif;
-  --secondary-font:'Poppins', sans-serif;
+  --primary-font:  'Montserrat', sans-serif;
+  --secondary-font:'Montserrat', sans-serif;
 
   --secondary-color: #2b3035;
   --background-color: #212529;
@@ -56,7 +56,7 @@ p {
 .grey {
   color: var(--grey-color);
   font-family: var(--primary-font);
-  font-size: 30px;
+  
 }
 .grey-heading {
   color: var(--grey-color);
@@ -82,7 +82,9 @@ footer .social-links a:hover {
   background-color: var(--grey-color);
   transform: var(--scale);
 }
-
+.tech{
+  margin-top: 0;
+}
 .tech img {
   transition: all 200ms ease-in-out;
   border-radius: 50px;
@@ -109,19 +111,7 @@ a {
   text-decoration: underline;
 }
 
-.project-links {
-  background: var(--secondary-color);
-  border-radius: 6px;
-  margin-top: 12px;
-  box-shadow: var(--box-shadow);
-}
-.project-links a {
-  color: white;
-}
-.project-links a:hover {
-  color: var(--grey-color);
-  transform: var(--scale);
-}
+
 .contact-box {
   background: var(--secondary-color);
   padding: 30px 120px;
