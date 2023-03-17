@@ -18,6 +18,7 @@ body {
   color: white;
   font-family: var(--secondary-font);
   font-weight: 200;
+  
 }
 .collapse a {
   font-size: 18px;
@@ -95,7 +96,7 @@ a {
   color: var(--grey-color);
   font-size: 22px;
   transition: all 150ms ease-in-out;
-  text-align: center;
+  
   display: block;
 }
 a:hover{
