@@ -60,6 +60,7 @@ p {
   font-family: var(--primary-font);
   
 }
+
 footer {
   margin-top: 60px;
 }
@@ -94,6 +95,8 @@ a {
   color: var(--grey-color);
   font-size: 22px;
   transition: all 150ms ease-in-out;
+  text-align: center;
+  display: block;
 }
 a:hover{
   color:white;
@@ -127,6 +130,8 @@ a:hover{
   box-shadow: var(--box-shadow);
   transition: all 150ms ease-in-out;
   font-size: 18px;
+  margin-bottom: 20px;
+
   
 }
 .btn:hover {
@@ -188,5 +193,7 @@ img {
   .tech img {
     width: 40px;
   }
-  
+  a{
+    font-size: 18px;
+  }
 }
