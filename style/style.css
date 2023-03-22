@@ -13,7 +13,7 @@
   padding: 0 0;
 }
 body {
-  margin: 155px 40px 0;
+  margin: 80px 40px 0;
   background-color: var(--background-color);
   color: white;
   font-family: var(--secondary-font);
@@ -28,7 +28,7 @@ body {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 120px;
   font-family: var(--primary-font);
 }
 h2 {
@@ -131,7 +131,7 @@ a:hover{
   box-shadow: var(--box-shadow);
   transition: all 150ms ease-in-out;
   font-size: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 
   
 }
