@@ -1,10 +1,10 @@
 :root {
-  --grey-color: #61D9FB;
+  --grey-color: #E751C1;
   --primary-font:  'Montserrat', sans-serif;
   --secondary-font:'Montserrat', sans-serif;
 
   --secondary-color: #2b3035;
-  --background-color: #212529;
+  --background-color: black;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --scale: scale(1.1);
 }
@@ -26,10 +26,13 @@ body {
 .collapse a:hover {
   color: var(--grey-color);
 }
-
+.my-name{
+  padding:100px 0;
+}
 h1 {
-  font-size: 120px;
+  font-size: 150px;
   font-family: var(--primary-font);
+  
 }
 h2 {
   font-family: 28px;
@@ -135,6 +138,7 @@ a:hover{
 
   
 }
+
 .btn:hover {
   transform: var(--scale);
   background: var(--grey-color);
