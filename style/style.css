@@ -13,6 +13,7 @@
   padding: 0 0;
 }
 body {
+ 
   margin: 80px 40px 0;
   background-color: var(--background-color);
   color: white;
@@ -27,7 +28,7 @@ body {
   color: var(--grey-color);
 }
 .my-name{
-  padding:100px 0;
+  padding:70px 0;
 }
 h1 {
   font-size: 150px;
@@ -128,8 +129,9 @@ a:hover{
 }
 .btn {
   background: var(--grey-color);
-  border-radius: 7px;
-  color: #333;
+  border-radius: 30px;
+  color: #ffffff;
+  font-weight: bold;
   display: block;
   box-shadow: var(--box-shadow);
   transition: all 150ms ease-in-out;
