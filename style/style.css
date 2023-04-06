@@ -3,7 +3,7 @@
   --primary-font:  'Montserrat', sans-serif;
   --secondary-font:'Montserrat', sans-serif;
 
-  --secondary-color: #2b3035;
+  --secondary-color:  rgba(255, 255, 255, 0.1);;
   --background-color: black;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --scale: scale(1.1);
@@ -19,6 +19,7 @@ body {
   color: white;
   font-family: var(--secondary-font);
   font-weight: 200;
+  
   
 }
 .collapse a {
@@ -46,11 +47,11 @@ h3 {
 p {
   font-size: 23px;
   margin-bottom: 0;
+  opacity:0.8;
 }
 .skills{
   border: 2px solid var(--grey-color);
   border-radius: 6px;
-  
   margin:0 auto;
 }
 
@@ -89,6 +90,7 @@ footer .social-links a:hover {
   margin-top: 0;
 }
 .tech img {
+  background: rgba(255, 255, 255, 0.1);
   transition: all 200ms ease-in-out;
   border-radius: 50px;
 }
@@ -130,20 +132,22 @@ a:hover{
 .btn {
   background: var(--grey-color);
   border-radius: 30px;
+ 
   color: #ffffff;
   font-weight: bold;
   display: block;
   box-shadow: var(--box-shadow);
-  transition: all 150ms ease-in-out;
-  font-size: 18px;
+  transition: all 200ms ease-in-out;
+  font-size: 20px;
   margin-bottom: 10px;
+  letter-spacing: 2px;
 
-  
 }
 
 .btn:hover {
-  transform: var(--scale);
-  background: var(--grey-color);
+   border:1px solid #E751C1;
+  background: black;
+  color:#E751C1;
 }
 .certification-left:hover {
   transform: scale(3);
