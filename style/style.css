@@ -1,9 +1,9 @@
 :root {
-  --grey-color: #E751C1;
-  --primary-font:  'Montserrat', sans-serif;
-  --secondary-font:'Montserrat', sans-serif;
+  --grey-color: #e751c1;
+  --primary-font: "Montserrat", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
 
-  --secondary-color:  rgba(255, 255, 255, 0.1);;
+  --secondary-color: rgba(255, 255, 255, 0.1);
   --background-color: black;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --scale: scale(1.1);
@@ -13,14 +13,11 @@
   padding: 0 0;
 }
 body {
- 
   margin: 80px 40px 0;
   background-color: var(--background-color);
   color: white;
   font-family: var(--secondary-font);
   font-weight: 200;
-  
-  
 }
 .collapse a {
   font-size: 18px;
@@ -28,13 +25,12 @@ body {
 .collapse a:hover {
   color: var(--grey-color);
 }
-.my-name{
-  padding:70px 0;
+.my-name {
+  padding: 70px 0;
 }
 h1 {
-  font-size: 150px;
+  font-size: 145px;
   font-family: var(--primary-font);
-  
 }
 h2 {
   font-family: 28px;
@@ -47,24 +43,24 @@ h3 {
 p {
   font-size: 23px;
   margin-bottom: 0;
-  opacity:0.8;
+  opacity: 0.8;
 }
-.skills{
+.skills {
   border: 2px solid var(--grey-color);
   border-radius: 6px;
-  margin:0 auto;
+  margin: 0 auto;
 }
-
 
 .grey {
   color: var(--grey-color);
   font-family: var(--primary-font);
-  
 }
 .grey-heading {
   color: var(--grey-color);
   font-family: var(--primary-font);
-  
+}
+.project-hero {
+  padding: 80px 80px;
 }
 
 footer {
@@ -86,7 +82,7 @@ footer .social-links a:hover {
   background-color: var(--grey-color);
   transform: var(--scale);
 }
-.tech{
+.tech {
   margin-top: 0;
 }
 .tech img {
@@ -102,11 +98,14 @@ a {
   color: var(--grey-color);
   font-size: 22px;
   transition: all 150ms ease-in-out;
-  
+
   display: block;
 }
-a:hover{
-  color:white;
+a:hover {
+  color: white;
+}
+.app {
+  margin: 20px 0;
 }
 .app img {
   transition: all 200ms ease-in-out;
@@ -122,7 +121,6 @@ a:hover{
   text-decoration: underline;
 }
 
-
 .contact-box {
   background: var(--secondary-color);
   padding: 30px 120px;
@@ -132,22 +130,20 @@ a:hover{
 .btn {
   background: var(--grey-color);
   border-radius: 30px;
- 
+
   color: #ffffff;
-  font-weight: bold;
+
   display: block;
   box-shadow: var(--box-shadow);
   transition: all 200ms ease-in-out;
   font-size: 20px;
   margin-bottom: 10px;
-  letter-spacing: 2px;
-
 }
 
 .btn:hover {
-   border:1px solid #E751C1;
+  border: 1px solid #e751c1;
   background: black;
-  color:#E751C1;
+  color: #e751c1;
 }
 .certification-left:hover {
   transform: scale(3);
@@ -195,16 +191,17 @@ img {
   .weather {
     margin-top: 30px;
   }
-  
+  .project-hero {
+    padding: 0;
+  }
 
   .project-links {
     margin-bottom: 30px;
-   
   }
   .tech img {
     width: 40px;
   }
-  a{
+  a {
     font-size: 18px;
   }
 }
