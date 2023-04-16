@@ -60,7 +60,7 @@ p {
   font-family: var(--primary-font);
 }
 .project-hero {
-  padding: 80px 0px;
+  padding: 60px 0px;
 }
 
 footer {
@@ -94,6 +94,7 @@ footer .social-links a:hover {
   border-radius: 50px;
 }
 .tech img.rotate {
+ 
   animation: spin-right 10s linear infinite;
 }
 
@@ -109,7 +110,7 @@ a {
   display: block;
 }
 
-.repository:hover {
+.text-shadow:hover, .repository:hover {
    text-shadow: rgba(255, 214, 143, 0.986) 0px 0px 87px,
     rgba(219, 146, 20, 1) 0px 0px 243px, rgba(255, 245, 227, 0.893) 0px 0px 28px,
     rgba(255, 253, 250, 1) 0px 0px 23px;
@@ -146,7 +147,7 @@ a:hover {
   border-radius: 30px;
 
   color: #ffffff;
-text-shadow: none;
+
   display: block;
   box-shadow: var(--box-shadow);
   transition: all 200ms ease-in-out;
@@ -178,6 +179,9 @@ text-shadow: none;
 }
 img {
   box-shadow: var(--box-shadow);
+}
+.contact-page{
+  padding:60px 0;
 }
 
 @media (max-width: 1000px) {
