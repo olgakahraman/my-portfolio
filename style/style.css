@@ -46,11 +46,16 @@ p {
   opacity: 0.8;
 }
 .skills {
-  border: 2px solid var(--grey-color);
-  border-radius: 6px;
+ 
   margin: 0 auto;
 }
+.skill-items p{
+  border-radius: 30px;
+  border:2px solid #e751c1;
+  margin-top: 5px;
+  padding: 5px 5px;
 
+}
 .grey {
   color: var(--grey-color);
   font-family: var(--primary-font);
@@ -97,7 +102,19 @@ footer .social-links a:hover {
  
   animation: spin-right 10s linear infinite;
 }
+@keyframes rotating {
+    from {
+        transform: rotate(0deg)
+    }
 
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+.rotating {
+    animation: rotating 10s linear infinite;
+}
 .tech img:hover {
   transform: scale(1.5);
 }
