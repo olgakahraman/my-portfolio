@@ -19,6 +19,9 @@ body {
   font-family: var(--secondary-font);
   font-weight: 200;
 }
+section{
+  margin-bottom: 100px;
+}
 .collapse a {
   font-size: 18px;
 }
@@ -46,15 +49,29 @@ p {
   opacity: 0.8;
 }
 .skills {
- 
+  border:2px solid #e751c1;
+  border-radius: 30px;
   margin: 0 auto;
 }
 .skill-items p{
   border-radius: 30px;
-  border:2px solid #e751c1;
+ 
   margin-top: 5px;
   padding: 5px 5px;
+ 
 
+}
+.action{
+  
+  margin:0 auto;
+
+  border-radius: 30px;
+  border:1px solid #e751c1;
+  margin-top: 8px;
+  padding: 5px 5px;
+   max-width: 170px;
+ 
+ 
 }
 .grey {
   color: var(--grey-color);
@@ -205,6 +222,9 @@ img {
   body {
     text-align: center;
     margin: 80px 20px;
+  }
+  section{
+    margin-bottom: 20px;
   }
   h1 {
     font-size: 40px;
