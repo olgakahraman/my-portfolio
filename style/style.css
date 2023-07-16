@@ -216,7 +216,13 @@ img {
 .contact-page{
   padding:60px 0;
 }
-
+ol{
+  margin-top: 50px;
+}
+.project-list li{
+  margin-bottom: 30px;
+  
+}
 @media (max-width: 1000px) {
   body {
     text-align: center;
