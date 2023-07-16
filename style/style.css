@@ -140,7 +140,6 @@ a {
   color: var(--grey-color);
   font-size: 22px;
   transition: all 150ms ease-in-out;
-
   display: block;
 }
 
