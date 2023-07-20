@@ -85,7 +85,10 @@ p {
 .project-hero {
   padding: 60px 0px;
 }
-
+.app-name{
+  font-weight: 500;
+  font-size: 24px;
+}
 footer {
   margin-top: 60px;
 }
